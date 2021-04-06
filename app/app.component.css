@@ -1,0 +1,8 @@
+p {
+  font-family: Lato;
+}
+
+.top-counter {
+  position: sticky;
+  top: 0;
+}
