@@ -12,7 +12,7 @@ export class AppComponent {
   @HostListener("window:scroll", [])
   onScroll(): void {
     if (this.bottomReached()) {
-      this.elements = [...this.elements, this.count++];
+      this.elements = [...this.elements, ++this.count];
     }
   }
 
